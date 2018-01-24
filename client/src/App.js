@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*<Header message="This is the Header Tag" />*/}
+        <Header message="This is the Header Tag" />
         <h1> Thatagata Das </h1>
       </div>
     );
