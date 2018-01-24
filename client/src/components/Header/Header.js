@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Header = (props) => {
+   
     return (
         <div>
         
-        <h1>{this.props.message}</h1>
+        <h1>{props.message}</h1>
         
         </div>
 
