@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header.js'
-
+import data from './testData.json'
 class App extends Component {
 
   state = {
-    pageHeader : 'Naming Contests'
+    pageHeader : 'Naming Contests',
+    data : data
   }
 
   
