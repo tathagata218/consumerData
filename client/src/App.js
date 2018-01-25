@@ -13,11 +13,7 @@ class App extends Component {
       stuff : test.contests
 
     });
-    }
-    clickOnDiv =  () => {
-      console.log("click works");
-  
-    }
+  }
   
   render() {
     console.log(this.state.stuff);
@@ -26,7 +22,7 @@ class App extends Component {
         <Header message={this.state.pageHeader} />
         {this.state.stuff.map((data)=>{
           return (
-            <Contests clickfunc={this.state.clickOnDiv}  key={data.id} info={data} />
+            <Contests   key={data.id} info={data} />
           )
         })}
       </div>
