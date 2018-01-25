@@ -24,7 +24,7 @@ class App extends Component {
         <Header message={this.state.pageHeader} />
         {this.state.stuff.map((data)=>{
           return (
-            <Contests info={data} />
+            <Contests key={data.id} info={data} />
           )
         })}
       </div>
