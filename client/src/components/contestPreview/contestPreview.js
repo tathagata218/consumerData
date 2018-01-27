@@ -1,4 +1,5 @@
 import React from 'react'
+import "./contest.css"
 
 const Contest = (props) => {
     console.log(props)
