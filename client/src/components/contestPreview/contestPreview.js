@@ -5,9 +5,15 @@ const Contest = (props) => {
     console.log(props)
     return(
         <div>
-            <div onClick={() => {console.log(props.info.contestName)}}>
-                <h2>{props.info.categoryName}</h2>
-                <h2>{props.info.contestName}</h2>
+            <div className="mainTestDiv" onClick={() => {console.log(props.info.contestName)}}>
+            <table>
+            <tr>    
+            <th><h2>{props.info.categoryName}</h2></th>
+            </tr>
+            <tr>
+                <td><h2>{props.info.contestName}</h2></td>
+            </tr>
+                </table>
             </div>
             
         </div>
